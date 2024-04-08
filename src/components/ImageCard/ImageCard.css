@@ -1,0 +1,29 @@
+.image-card {
+  margin: 5px;
+}
+.image-thumbnail {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 769px) {
+  .image-card {
+    margin: 8px;
+  }
+  .image-thumbnail {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .image-card {
+    margin: 10px;
+  }
+  .image-thumbnail {
+    height: 100px;
+    width: 100px;
+  }
+}

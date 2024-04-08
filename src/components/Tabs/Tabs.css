@@ -1,0 +1,20 @@
+.tab {
+  color: #ffffff;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+@media screen and (min-width: 769px) {
+  .tab {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .tab {
+    font-size: 15px;
+    padding: 12px;
+  }
+}

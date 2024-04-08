@@ -1,0 +1,240 @@
+.app-container {
+  background-image: linear-gradient(to right, #970d1a, #4e204d);
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.top-header {
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 18px;
+}
+.top-header h1 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.time-score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+}
+.time-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+.time-title {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 13px;
+}
+.medium {
+  display: none;
+}
+.score-title {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+}
+.main-image {
+  height: 120px;
+  width: 220px;
+  border-radius: 6px;
+  margin-bottom: 3px;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px 30px 0px;
+}
+.bottom-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+.image-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  width: 280px;
+  margin-top: 3px;
+}
+.game-over-container {
+  width: 250px;
+  height: 400px;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game-over-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trophy-img {
+  width: 40%;
+}
+.your-score-card {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+.your-score-card > h2 {
+  font-weight: 500;
+  margin-bottom: 3px;
+  font-size: 18px;
+  color: #dedede;
+}
+.your-score-card > h1 {
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 5px;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+.game-over-card button {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 13px;
+  background-color: #aa31a8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 6px 10px 8px 10px;
+}
+
+@media screen and (min-width: 769px) {
+  .top-header {
+    height: 38px;
+    padding: 16px 40px;
+  }
+  .top-header h1 {
+    font-size: 24px;
+  }
+  .time-title {
+    font-size: 16px;
+  }
+  .small {
+    display: none;
+  }
+  .medium {
+    display: inline;
+  }
+  .score-title {
+    font-size: 16px;
+  }
+  .main-image {
+    height: 160px;
+    width: 300px;
+  }
+  .bottom-container {
+    padding: 10px 0px 20px 0px;
+  }
+  .image-container {
+    width: 400px;
+  }
+  .game-over-container {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 15%;
+    left: 26%;
+    display: flex;
+  }
+  .game-over-card {
+    position: absolute;
+    top: 25%;
+    left: -20%;
+  }
+  .trophy-img {
+    width: 45%;
+  }
+  .your-score-card > h2 {
+    font-size: 22px;
+  }
+  .your-score-card > h1 {
+    font-size: 28px;
+  }
+  .game-over-card button {
+    font-size: 16px;
+    padding: 6px 10px 8px 10px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .top-header {
+    height: 40px;
+    padding: 18px 55px;
+  }
+  .top-header h1 {
+    font-size: 26px;
+  }
+  .time-title {
+    font-size: 17px;
+  }
+  .score-title {
+    font-size: 17px;
+  }
+  .main-image {
+    height: 200px;
+    width: 380px;
+  }
+  .list-container {
+    margin: 8px 0px;
+  }
+  .image-container {
+    width: 750px;
+  }
+  .game-over-container {
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    top: 15%;
+    left: 36%;
+    display: flex;
+  }
+  .game-over-card {
+    position: absolute;
+    top: 25%;
+    left: -20%;
+  }
+  .trophy-img {
+    width: 50%;
+  }
+  .your-score-card > h2 {
+    font-size: 23px;
+  }
+  .your-score-card > h1 {
+    font-size: 30px;
+  }
+  .game-over-card button {
+    font-size: 18px;
+  }
+}
